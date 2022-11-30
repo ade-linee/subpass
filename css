@@ -1,0 +1,125 @@
+.everything {
+  background: #f1f1e6;
+}
+
+.list {
+  text-align: center;
+}
+
+.tbl {
+  text-align: center;
+  margin: 10px 100px 10px 250px;
+  font-size: 23px;
+}
+
+.title {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 80px;
+  font-weight: bold;
+  text-align: center;
+  background: #f0dcc3;
+  padding: 20px;
+  margin: 10px; 
+}
+.intro-descr {
+  font-size: 23px;
+  text-align: center;
+  margin: 15px;
+}
+.container1 {
+  display: flex;
+  padding: 20px;
+  width: 97%;
+  /* border: 3px #ccc solid; */
+  background: #d9c58a;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+.container1 div{
+  border: 1px #ccc solid;
+}
+
+.box {
+  border: 10px #fff solid;
+  background: #f4f1d5;
+  width: 23%;
+  padding: 10px;
+  /*border-end-start-radius: 20px 20px;*/
+  box-shadow: 3px 7px 4px;
+}
+
+.box-h {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 28px;
+}
+
+.info {
+  font-family: lobster;
+  font-size: 20px;
+}
+
+table, th, td {
+  border: 1px #502216 solid;
+}
+
+.table {
+  width: 80%;
+  margin: 30px;
+}
+
+.cell {
+  padding: 10px;
+  background: #eeeee4;
+}
+
+.top {
+  color: #04326b;
+  text-transform: uppercase;
+  background: #cbdee3;
+}
+
+.list-title {
+  font-size: 30px;
+  text-decoration: underline;
+  text-transform: uppercase;
+  padding: 10px;
+  background: #d47630;
+}
+
+.element {
+  font-size: 25px;
+  padding: 5px;
+}
+
+.input {
+  font-size: 20px;
+  padding: 10px;
+  font-weight: bold;
+  color: #42301a;
+}
+
+.submission {
+  background: #d9cbac;
+  border: 3px #58341c solid;
+  padding: 20px;
+  border-radius: 30px;
+  margin: 20px;
+}
+
+.repository {
+  font-size: 30px;
+  padding: 15px;
+  margin: 20px;
+  border-radius: 50px;
+  box-shadow: 3px 3px 15px;
+  background: #eab676;
+  transition-duration: 1.0s;
+  cursor: pointer;
+}
+
+.repository:hover {
+  background-color: #4d2a1d;
+  color: white;
+}
